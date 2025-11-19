@@ -1,0 +1,195 @@
+Description: In colder climates like Sweden's winter, layering and insulating materials are crucial. A wool coat or parka in dark colors pairs well with boots and warm sweatshirts to create both warmth and style. Dark Green and black provide a refined expression.
+Outfit suggestion:
+Pants: Jeans, Blue, Relaxed
+Shoes: Boots, Black
+Sweatshirt:  Sweatshirt, Beige
+Jacket: Parka, Dark Green
+
+Description: For warm summer days in southern Europe, such as Spain or Greece, light clothes in colors like beige and white are needed. A thin jacket or no jacket at all works, along with chinos and sneakers.
+Outfit suggestion:
+Pants: Chinos, Beige, Loose
+Shoes: Sneakers, White
+Sweatshirt: Sweatshirt, Green
+Jacket: no jacket
+
+Description: Fall in New York requires smart layering with sleek material choices. A coat or wool jacket paired with  sweatshirts and sneakers is a classic look. Colors like blue, black, and red dominate.
+Outfit suggestion:
+Pants: Jeans, Blue, Regular
+Shoes: Sneakers, White
+Sweatshirt:  Sweatshirt, Red
+Jacket: Coat, Black
+
+Description: Formal occasions like funerals or ceremonies require muted colors and elegant garments. A coat in black or dark green with slim trousers and dress shoes works excellently.
+Outfit suggestion:
+Pants: Slim Trousers, Black
+Shoes: Dress Shoes, Black
+Sweatshirt:  Sweatshirt, White
+Jacket: Dark Green or Black Coat
+
+Description: For a relaxed vacation in Asia where the climate is warm and humid, comfortable, loose-fitting clothes are necessary. Baggy chinos in light colors with sneakers or slippers are ideal. A hoodie works well for cooler evenings.
+Outfit suggestion:
+Pants: Chinos, Beige, Baggy
+Shoes: Slippers, White
+Sweatshirt: Logo Hoodie, Blue
+Jacket: Jacket, None
+
+Description: At a party, an outfit that combines youthfulness with style is essential. Black slim jeans provide a modern base that can be elevated with red colors and prints on the top. Sneakers give a more relaxed feel, while dress shoes create a more polished look.
+Outfit suggestion:
+Pants: Slim Jeans, Black
+Shoes: Sneakers or Black Dress Shoes, White
+Sweatshirt: Hoodie, Red
+Jacket: Jacket, None
+
+Description: Spring in Paris is variable in temperature, making a coat practical. The combination of beige chinos and a black coat is both classic and functional. A  sweatshirt balances the whole look.
+Outfit suggestion:
+Pants: Chinos, Beige, Slim
+Shoes: Dress Shoes, Black
+Sweatshirt:  Sweatshirt, White
+Jacket: Coat, Black
+
+Description: Summer in Los Angeles requires light and comfortable clothes. Sneakers provide freedom of movement, while a logo hoodie is a good choice for the cooler evening hours.
+Outfit suggestion:
+Pants: Chinos, Beige, Loose
+Shoes: Sneakers, White
+Sweatshirt: Logo Hoodie, Blue
+Jacket: Jacket, None
+
+Description: For ski trips to the Alps, functionality is key. A shell jacket is paired with warming mid-layers. Boots provide traction, while dark colors like black and green keep the style clean and classic.
+Outfit suggestion:
+Pants: Trousers, Black, Relaxed
+Shoes: Boots, Black
+Sweatshirt:  Sweatshirt, Green
+Jacket: Shell Jacket, Black
+
+Description: Fall in London means rain and wind. A parka provides protection from the elements, while chinos and boots complete the sturdy yet stylish look. Prints on the sweatshirt add character.
+Outfit suggestion:
+Pants: Chinos, Blue, Regular
+Shoes: Boots, Black
+Sweatshirt: Sweatshirt, Red
+Jacket: Parka, Dark Green
+
+Description: A beach holiday in the Maldives calls for cool clothing. Shorts and slippers provide simplicity, while a thin sweatshirt keeps you warm in the evenings. Colors like beige and blue match the surroundings.
+Outfit suggestion:
+Pants: Chinos, Beige, Baggy
+Shoes: Slippers, White
+Sweatshirt: Sweatshirt, Blue
+Jacket: Jacket, None
+
+Description: On business trips, such as to Tokyo, a formal and discreet look is important. A black coat and black trousers convey professionalism, while a  beige sweatshirt adds subtle style.
+Outfit suggestion:
+Pants: Slim Trousers, Black
+Shoes: Dress Shoes, Black
+Sweatshirt:  Sweatshirt, Beige
+Jacket: Coat, Black
+
+Description: During a weekend trip to Berlin in spring, you're often met with chilly mornings and mild afternoons. A bomber jacket paired with relaxed jeans and a logo hoodie creates a modern urban look. Colors like black, blue, and green work well in the city.
+Outfit suggestion:
+Pants: Jeans, Blue, Relaxed
+Shoes: Sneakers, Black
+Sweatshirt: Logo Hoodie, Green
+Jacket: Bomber Jacket, Black
+
+Description: For a fall weekend in Copenhagen, you'll need clothing that can handle both rain and wind. A shell jacket provides necessary protection, while chinos and a hoodie offer a youthful yet functional feel.
+Outfit suggestion:
+Pants: Chinos, Beige, Regular
+Shoes: Boots, Black
+Sweatshirt: Hoodie, Red
+Jacket: Shell Jacket, Black
+
+Description: Winter in Sweden means cold and snow, where a wool coat in a dark color paired with boots and a  sweatshirt keeps you warm and well-dressed. Colors like green, black, and white offer balance.
+Outfit suggestion:
+Pants: Trousers, Black, Slim
+Shoes: Boots, Black
+Sweatshirt:  Sweatshirt, White
+Jacket: Wool Coat, Dark Green
+
+Description: For an event on a rooftop terrace in Rome during the summer, a minimalist yet stylish look is ideal. Lighter colors like white and beige are combined with slippers and a sweatshirt to create a light but intentional outfit.
+Outfit suggestion:
+Pants: Chinos, Beige, Loose
+Shoes: Slippers, White
+Sweatshirt: Sweatshirt, White
+Jacket: Jacket, None
+
+Description: A spring walk in Amsterdam requires adaptable clothing. A light jacket with jeans and a  sweatshirt works well in changing weather. Light tones can be combined with muted ones for a balanced look.
+Outfit suggestion:
+Pants: Jeans, Blue, Regular
+Shoes: Sneakers, White
+Sweatshirt:  Sweatshirt, Blue
+Jacket: Light Jacket, Beige
+
+Description: A formal spring dinner in Stockholm requires finesse. A coat, slim trousers, and loafers create a discreet but elegant whole. A  sweatshirt adds structure without being too casual.
+Outfit suggestion:
+Pants: Slim Trousers, Black
+Shoes: Loafers, Black
+Sweatshirt:  Sweatshirt, White
+Jacket: Coat, Black
+
+Description: On a safari in South Africa, practical clothing is essential. Lightweight materials and earthy colors like beige and green blend well with the environment. Sneakers or boots provide protection, while a hoodie serves as protection from the evening breeze.
+Outfit suggestion:
+Pants: Chinos, Beige, Relaxed
+Shoes: Boots, Beige
+Sweatshirt: Hoodie, Green
+Jacket: Jacket, None
+
+Description: During a fall trip to Tokyo, tradition blends with modernity. A classic-style coat is paired with jeans and a sweatshirt with subtle prints. A neutral color palette enhances the city’s aesthetic.
+Outfit suggestion:
+Pants: Jeans, Blue, Regular
+Shoes: Loafers, Black
+Sweatshirt: Sweatshirt, Beige
+Jacket: Coat, Black
+
+Description: A summer night in Helsinki calls for clothing that can withstand a little chill but still remains comfortable. A light jacket like a tackvast or a hoodie is appropriate, paired with chinos and sneakers. Blue and white give a maritime vibe.
+Outfit suggestion:
+Pants: Chinos, White, Loose
+Shoes: Sneakers, White
+Sweatshirt: Hoodie, Blue
+Jacket: None
+
+Description: A winter weekend in Reykjavik requires clothing that can handle extreme cold and wind. A parka and shell jacket layered together keep you warm, while dark colors provide a practical yet stylish look. Boots and a hoodie are essentials.
+Outfit suggestion:
+Pants: Trousers, Black, Loose
+Shoes: Boots, Black
+Sweatshirt: Hoodie, Red
+Jacket: Shell Jacket over Dark Green Parka, Black
+
+Description: During a cultural trip to Prague in the fall, a coat with chinos is a timeless combination. A  sweatshirt adds comfort without compromising style. Colors like gray, blue, and black suit the city’s atmosphere.
+Outfit suggestion:
+Pants: Chinos, Blue, Regular
+Shoes: Loafers, Black
+Sweatshirt:  Sweatshirt, Blue
+Jacket: Coat, Black
+
+Description: A summer day in Seoul, where fashion is fast and trendy, calls for something youthful yet smart. A logo hoodie with relaxed jeans and sneakers works for both shopping and café hanging. Light colors are great for the heat.
+Outfit suggestion:
+Pants: Jeans, Blue, Relaxed
+Shoes: Sneakers, White
+Sweatshirt: Logo Hoodie, White
+Jacket: Jacket, None
+
+Description: On rainy days in Dublin during spring, a shell jacket is perfect. Combine it with chinos and boots to stay dry and stylish. A hoodie under the jacket can add character.
+Outfit suggestion:
+Pants: Chinos, Beige, Regular
+Shoes: Boots, Black
+Sweatshirt: Hoodie, Green
+Jacket: Shell Jacket, Black
+
+Description: For a late summer evening by a Swedish archipelago, a tackvast jacket over a  sweatshirt is both functional and stylish. Loafers and jeans create a maritime look that works by the dock.
+Outfit suggestion:
+Pants: Jeans, Blue, Regular
+Shoes: Loafers, Beige
+Sweatshirt:  Sweatshirt, Red
+Jacket: None
+
+Description: At a business lunch in New York, you need to look professional without being overdressed. A coat over chinos and loafers in neutral colors works perfectly. A  sweatshirt adds balance.
+Outfit suggestion:
+Pants: Chinos, Beige, Slim
+Shoes: Loafers, Black
+Sweatshirt:  Sweatshirt, White
+Jacket: Coat, Black
+
+Description: During a road trip through California, comfortable clothing is key for long hours in the car. A hoodie, relaxed jeans, and sneakers work in both heat and coolness. Light and earthy colors are best.
+Outfit suggestion:
+Pants: Jeans, Blue, Loose
+Shoes: Sneakers, White
+Sweatshirt: Hoodie, Beige
+Jacket: Jacket, None

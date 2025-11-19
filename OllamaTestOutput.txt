@@ -1,0 +1,4 @@
+Pants: Jeans, None, Loose
+Shoes: Sneakers, White
+Sweatshirt: Sweatshirt, Beige
+Jacket: no jacket

@@ -1,0 +1,13 @@
+pip install Pillow
+pip install matplotlib
+pip install ollama
+pip install deep-translator
+pip install beautifulsoup4
+pip install tqdm
+pip install requests
+pip install numpy
+pip install opencv-python
+pip install diffusers
+pip install safetensors
+pip install torch
+pip install scipy

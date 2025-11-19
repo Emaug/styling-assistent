@@ -1,0 +1,116 @@
+def process_region(region_name, picer, product):
+    """Main function handling the entire image processing pipeline."""
+    
+    # Load mask and calculate center
+    mask, (y_min_mask, y_max_mask) = load_mask(region_name)
+    mask_center_y = (y_min_mask + y_max_mask) // 2
+    mask_height = y_max_mask - y_min_mask
+    
+    print(f"[{region_name}] Mask center Y: {mask_center_y}, height: {mask_height}")
+    
+    # Load transparent image and resize
+    img2, (y_min_img2, y_max_img2) = load_transparent_image(product)
+    img2_height = y_max_img2 - y_min_img2
+    resized_img2 = resize_image(img2, mask_height)
+    
+    print(f"Img2 resized height: {mask_height}")
+
+    # Load background image
+    background = Image.open(f"{picer}").convert("RGBA")
+
+    # Compute paste positions
+    paste_top_y = center_image_on_mask(mask_center_y, resized_img2)
+    paste_x = (background.width - resized_img2.width) // 2
+
+    # Create final composite image
+    composite = background.copy()
+    composite.paste(resized_img2, (paste_x, paste_top_y), resized_img2)
+    composite.save("generatepic/final_composite_centered.png")
+    composite.show()
+
+    # Create square mask and save it
+    square_mask = create_square_mask(mask, (background.width, background.height))
+    Image.fromarray(square_mask * 255).save("generatepic/mask_box.png")
+    
+    print("Saved 'final_composite_centered.png' and 'mask_box.png'.")
+
+
+import cv2
+import numpy as np
+from PIL import Image
+
+def load_mask(region_name):
+    """Load grayscale mask image which is needed to calculate what area the image should be scaled to"""
+    mask_path = f"masks/{region_name}.png"
+    mask = cv2.imread(mask_path, cv2.IMREAD_GRAYSCALE)
+    ys_mask = np.where(mask == 255)[0]
+    xs_mask = np.where(mask == 255)[1]
+    mask_list = []
+    x_min_mask, x_max_mask = xs_mask.min(), xs_mask.max()
+    y_min_mask, y_max_mask = ys_mask.min(), ys_mask.max() # Gets lowest and highest value in the array of all the white 
+    mask_list.append(x_min_mask)
+    mask_list.append(x_max_mask)
+    mask_list.append(y_min_mask)
+    mask_list.append(y_max_mask)
+    return mask_list
+
+def load_transparent_image(product):
+    """Load transparent image with an alpha channel."""
+    img_path = f"Stylist/Nedladdadebilder/nedladdadbild{product}_transparent.png"
+    img = Image.open(img_path).convert("RGBA")
+    img_np = np.array(img)
+    img_list = []
+    xs_img = np.where(img_np[:, :, 3] > 0)[1]
+    ys_img = np.where(img_np[:, :, 3] > 0)[0]
+    x_min_img, x_max_img = xs_img.min(), xs_img.max()
+    y_min_img, y_max_img = ys_img.min(), ys_img.max()
+    img_list.append(x_min_img)
+    img_list.append(x_max_img)
+    img_list.append(y_min_img)
+    img_list.append(y_max_img)
+    return img_list
+
+def resize_image(img, target_height):
+    """Resize an image while maintaining aspect ratio."""
+    scale_ratio = target_height / (img.height)
+    new_size = (int(img.width * scale_ratio), target_height)
+    return img.resize(new_size, Image.LANCZOS)
+
+def center_image_on_mask(mask_center_y, resized_img):
+    """Compute the correct Y position for pasting the resized image."""
+    resized_img_np = np.array(resized_img)
+    ys_resized = np.where(resized_img_np[:, :, 3] > 0)[0]
+    y_min_resized, y_max_resized = ys_resized.min(), ys_resized.max()
+    resized_center_offset = (y_min_resized + y_max_resized) // 2
+    paste_top_y = mask_center_y - resized_center_offset
+    return paste_top_y
+
+def create_square_mask(mask, background_size):
+    """Generate a square bounding box mask based on the region mask."""
+    ys, xs = np.where(mask == 255)
+    x_min, x_max = xs.min(), xs.max()
+    y_min, y_max = ys.min(), ys.max()
+    box_size = max(x_max - x_min, y_max - y_min) + int(0.1 * max(x_max - x_min, y_max - y_min))
+    x1, x2 = max(0, (x_min + x_max) // 2 - box_size // 2), min(background_size[0], (x_min + x_max) // 2 + box_size // 2)
+    y1, y2 = max(0, (y_min + y_max) // 2 - box_size // 2), min(background_size[1], (y_min + y_max) // 2 + box_size // 2)
+    
+    square_mask = np.zeros((background_size[1], background_size[0]), dtype=np.uint8)
+    square_mask[y1:y2, x1:x2] = 1
+    return square_mask
+
+
+
+
+def process_region(region_name, picer, product):
+    mask_coords_list = load_mask(region_name)
+    mask_y_center = (mask_coords_list[2]+mask_coords_list[3])//2
+    mask_height = mask_coords_list[2]-mask_coords_list[3]
+    print(mask_y_center)
+
+    img_coords_list = load_transparent_image(product)
+    
+
+
+
+process_region("Lowerbody", "generatepic/output_image.png", "byxa")
+
